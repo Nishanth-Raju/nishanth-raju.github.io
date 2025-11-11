@@ -1,37 +1,37 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Linkedin, Twitter } from "lucide-react";
 import team1 from "@/assets/team-1.jpg";
-import team2 from "@/assets/team-2.jpg";
-import team3 from "@/assets/team-3.jpg";
+import team2 from "@/assets/raju.png";
+import team3 from "@/assets/banu_prakash.jpg";
 
 const team = [
   {
     name: "Nishanth Raju",
     role: "CEO & Founder",
     image: team1,
-    bio: "15+ years of experience in tech leadership and business strategy.",
+    bio: "5+ years of experience in tech leadership and business strategy.",
     social: {
       linkedin: "#",
       twitter: "#",
     },
   },
   {
-    name: "Michael Chen",
+    name: "Dr. Raju Shanmugam",
     role: "CTO",
     image: team2,
     bio: "Expert in software architecture and emerging technologies.",
     social: {
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/prof-dr-s-raju-me-phd-3505a533",
       twitter: "#",
     },
   },
   {
-    name: "David Rodriguez",
+    name: "R. Banu Prakash",
     role: "Head of Marketing",
     image: team3,
     bio: "Strategic marketing leader with a focus on digital transformation.",
     social: {
-      linkedin: "#",
+      linkedin: "https://in.linkedin.com/in/banu-prakash-r-98b2a8124",
       twitter: "#",
     },
   },
